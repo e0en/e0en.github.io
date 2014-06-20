@@ -13,6 +13,7 @@ body {
     max-width: 900px;
     line-height: 1.5em;
     font-family: 'NanumGothic', sans-serif;
+    word-wrap: normal;
     color: #555;
 }
 h1 {
