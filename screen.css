@@ -59,7 +59,7 @@ section {
 #experiences ol {
     padding: 0;
 }
-#education li, #experiences li {
+#education li, #experiences li, #employment li {
     list-style-type: none;
     line-height: 2em;
     margin-bottom: 1em;
