@@ -74,7 +74,6 @@ section {
 }
 #publications li {
     margin-bottom: 1em;
-    word-break: break-all;
 }
 
 #publications .paper_title {
