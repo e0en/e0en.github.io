@@ -66,6 +66,7 @@ li {
 }
 
 .history .duration {
+    margin: -1.5em;
     display: block;
     color: black;
 }
