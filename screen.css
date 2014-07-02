@@ -53,28 +53,23 @@ section {
     font-size: 90%;
 }
 
-#education ol, #employment ol{
-    padding: 0;
+ol {
+    padding-left: 1.5em;
 }
-#experiences ol {
-    padding: 0;
-}
-#education li, #experiences li, #employment li {
-    list-style-type: none;
-    line-height: 2em;
+li {
     margin-bottom: 1em;
 }
-#education .duration, #experiences .duration, #employment .duration {
+
+.history li {
+    list-style-type: none;
+    line-height: 2em;
+}
+
+.history .duration {
     display: block;
     color: black;
 }
 
-#publications ol {
-    padding-left: 1.5em;
-}
-#publications li {
-    margin-bottom: 1em;
-}
 
 #publications .paper_title {
     font-weight: bold;
@@ -121,9 +116,5 @@ footer dd {
 
     #sub_title {
         margin: 1em;
-    }
-
-    #education li, #employment li {
-        margin-bottom: 1em;
     }
 }
