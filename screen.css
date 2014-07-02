@@ -72,10 +72,10 @@ li {
 }
 
 
-#publications .paper_title {
+.paper_title {
     font-weight: bold;
 }
-#publications .me {
+.me {
     color: black;
     font-style: normal;
     background: #ddd;
