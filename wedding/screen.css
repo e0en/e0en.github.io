@@ -5,16 +5,40 @@ body {
     padding: 0;
     text-align: center;
     font-family: 'Nanum Myeongjo', serif;
+    box-sizing: border-box;
 }
 
 section {
+    box-sizing: border-box;
     margin: 0 auto;
     width: 80%;
     max-width: 500px;
     padding: 2em;
-    border-bottom: 1px dotted #999;
+    border-bottom: 1px dashed #999;
+}
+
+section:last-child {
+    border-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+time, address {
+    font-style: normal;
+    display: block;
+    margin: 1em 0;
 }
 
 .name {
     font-size: 130%;
+}
+
+
+@media (max-width: 500px) {
+    section {
+        width: 90%;
+        padding: 1em;
+    }
 }
