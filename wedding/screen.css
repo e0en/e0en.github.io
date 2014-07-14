@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+section {
+    padding: 1em;
+}
+
+.name {
+    font-size: 130%;
+}
