@@ -1,11 +1,18 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
 body {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
 }
 
 section {
-    padding: 3em;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 2em;
+    border-bottom: 1px dotted #999;
 }
 
 .name {
