@@ -46,6 +46,7 @@ time, address {
 }
 
 img {
+    display: block;
     max-height: 50%;
     max-width: 50%;
 }
