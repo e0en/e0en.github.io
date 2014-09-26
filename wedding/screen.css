@@ -45,6 +45,11 @@ time, address {
     margin-right: 0.3em;
 }
 
+image {
+    max-height: 50%;
+    max-width: 50%;
+}
+
 
 @media (max-width: 500px) {
     section {
