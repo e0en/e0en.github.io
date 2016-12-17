@@ -13,23 +13,24 @@ body {
     max-width: 900px;
     line-height: 1.5em;
     font-family: 'NanumGothic', sans-serif;
+    font-size: 16px;
     color: #555;
 }
 h1 {
     text-transform: uppercase;
-    font-size: 300%;
+    font-size: 48px;
     margin: 0;
     color: black;
 }
 
 h2,h3 {
     text-transform: uppercase;
-    font-size: 150%;
+    font-size: 24px;
     font-weight: bold;
     color: black;
 }
 h3 {
-    font-size: 100%;
+    font-size: 16px;
     font-weight: normal;
 }
 
@@ -42,15 +43,12 @@ a {
 }
 
 #sub_title {
-    margin: 1em 0;
     color: #666;
-    font-size: 90%;
 }
 
 section {
     border-top: 1px solid #ccc;
     margin: 2em 0;
-    font-size: 90%;
 }
 
 ol, ul {
@@ -60,17 +58,26 @@ li {
     margin-bottom: 1em;
 }
 
+.history ol, .contact ul {
+    padding-left: 0;
+}
+
 .history li {
+    margin-left: 1em;
     list-style-type: none;
     line-height: 2em;
 }
 
 .history .duration {
-    margin: 0 0 0 -1.5em;
+    margin-left: -1em;
     display: block;
     color: black;
 }
 
+.contact li {
+    margin: 0;
+    list-style-type: none;
+}
 
 .paper_title {
     font-weight: bold;
@@ -81,20 +88,12 @@ li {
     background: #ddd;
 }
 
-footer {
-    border-top: 1px solid #ccc;
-    font-size: 80%;
+#skills p {
+    margin-left: 1em;
 }
 
-footer dt {
-    float: left;
-    clear: both;
-    width: 3em;
-    text-align: right;
-    color: black;
-}
-footer dd {
-    float: left;
+footer {
+    border-top: 1px solid #ccc;
 }
 
 #validate {
@@ -109,9 +108,5 @@ footer dd {
 @media (max-device-width: 500px) {
     h1 {
         font-size: 200%;
-    }
-
-    #sub_title {
-        margin: 1em;
     }
 }
