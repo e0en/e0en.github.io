@@ -106,13 +106,9 @@ footer dd {
     color: #ccc;
 }
 
-@media (max-width: 500px) {
+@media (max-device-width: 500px) {
     h1 {
         font-size: 200%;
-    }
-
-    h1, h2, h3, #sub_title {
-        text-align: center;
     }
 
     #sub_title {
