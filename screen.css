@@ -3,7 +3,7 @@
 
     font-style: normal;
     font-weight: normal;
-    src: local('Apple SD Gothic Neo'), local('NanumGothic'),  local('나눔고딕'),   url('http://commondatastorage.googleapis.com/fontfacekr-fonts/NanumGothic.woff') format('woff');
+    src: local('Apple SD Gothic Neo'), local('NanumGothic'),  local('나눔고딕'),   url('//commondatastorage.googleapis.com/fontfacekr-fonts/NanumGothic.woff') format('woff');
 
 }
 
