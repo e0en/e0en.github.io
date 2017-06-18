@@ -47,8 +47,8 @@ a {
 }
 
 section {
-    border-top: 1px solid #ccc;
-    margin: 2em 0;
+    border-top: 1px solid #eee;
+    margin: 1em 0;
 }
 
 ol, ul {
@@ -74,6 +74,15 @@ li {
     color: black;
 }
 
+.history .duration::after {
+    content: ": ";
+}
+
+.history .job_title {
+    color: black;
+    font-weight: bold;
+}
+
 .contact li {
     margin: 0;
     list-style-type: none;
@@ -93,7 +102,7 @@ li {
 }
 
 footer {
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #eee;
 }
 
 #validate {
