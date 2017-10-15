@@ -7,19 +7,16 @@ body {
     color: black;
 }
 h1 {
-    text-transform: uppercase;
     font-size: 48px;
     margin: 0;
 }
 
-h2,h3 {
-    text-transform: uppercase;
+h2 {
     font-size: 24px;
-    font-weight: bold;
 }
+
 h3 {
     font-size: 16px;
-    font-weight: normal;
 }
 
 #last_name {
@@ -27,7 +24,6 @@ h3 {
 }
 
 section {
-    border-top: 1px solid #eee;
     margin: 1em 0;
 }
 
@@ -57,21 +53,9 @@ li {
     content: ": ";
 }
 
-.history .job_title {
-    font-weight: bold;
-}
-
 .contact li {
     margin: 0;
     list-style-type: none;
-}
-
-.paper_title {
-    font-weight: bold;
-}
-.me {
-    font-style: normal;
-    background: #ddd;
 }
 
 #skills p {
@@ -84,8 +68,6 @@ footer {
 
 #validate {
     display: block;
-    height: 5em;
-    line-height: 5em;
     clear: both;
     text-align: center;
 }
