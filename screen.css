@@ -1,10 +1,10 @@
 body {
-    margin: 0 auto;
-    padding: 3em;
+    margin: 40px auto;
+    padding: 0 10px;
     max-width: 900px;
     line-height: 1.5em;
     font-size: 120%;
-    color: black;
+    color: #444;
 }
 
 h1, h2, h3 {
@@ -54,6 +54,9 @@ h3 {
 
 @media (max-device-width: 500px) {
     h1 {
-        font-size: 200%;
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
     }
 }
