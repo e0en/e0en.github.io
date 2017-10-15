@@ -4,36 +4,26 @@ body {
     max-width: 900px;
     line-height: 1.5em;
     font-size: 16px;
-    color: #555;
+    color: black;
 }
 h1 {
     text-transform: uppercase;
     font-size: 48px;
     margin: 0;
-    color: black;
 }
 
 h2,h3 {
     text-transform: uppercase;
     font-size: 24px;
     font-weight: bold;
-    color: black;
 }
 h3 {
     font-size: 16px;
     font-weight: normal;
 }
 
-a {
-    color: #933;
-}
-
 #last_name {
     font-weight: normal;
-}
-
-#sub_title {
-    color: #666;
 }
 
 section {
@@ -61,7 +51,6 @@ li {
 .history .duration {
     margin-left: -1em;
     display: block;
-    color: black;
 }
 
 .history .duration::after {
@@ -69,7 +58,6 @@ li {
 }
 
 .history .job_title {
-    color: black;
     font-weight: bold;
 }
 
@@ -82,7 +70,6 @@ li {
     font-weight: bold;
 }
 .me {
-    color: black;
     font-style: normal;
     background: #ddd;
 }
@@ -101,7 +88,6 @@ footer {
     line-height: 5em;
     clear: both;
     text-align: center;
-    color: #ccc;
 }
 
 @media (max-device-width: 500px) {
