@@ -1,18 +1,8 @@
-@font-face {
-    font-family: 'NanumGothic';
-
-    font-style: normal;
-    font-weight: normal;
-    src: local('Apple SD Gothic Neo'), local('NanumGothic'),  local('나눔고딕'),   url('//commondatastorage.googleapis.com/fontfacekr-fonts/NanumGothic.woff') format('woff');
-
-}
-
 body {
     margin: 0 auto;
     padding: 3em 1em;
     max-width: 900px;
     line-height: 1.5em;
-    font-family: 'NanumGothic', sans-serif;
     font-size: 16px;
     color: #555;
 }
