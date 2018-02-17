@@ -36,6 +36,8 @@ h3 {
 .history .duration {
     margin-left: -1em;
     display: block;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .history .duration::after {
