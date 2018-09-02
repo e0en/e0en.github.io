@@ -1,4 +1,4 @@
 e0en.github.io
 ==============
 
-personal page.
+Redirect to https://2501.sh
